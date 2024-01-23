@@ -26,7 +26,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, .1);
+    background: rgba(0, 0, 0, 0.434);
     backdrop-filter: blur(50px);
     z-index: -1;
 }
@@ -263,7 +263,7 @@ p{
         left: 0;
         width: 100%;
         height:  0;
-        background: rgba(0, 0, 0, .1);
+        background: rgba(0, 0, 0, 0.434);
         backdrop-filter: blur(50px);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
         overflow: hidden;
