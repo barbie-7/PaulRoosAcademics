@@ -231,3 +231,9 @@ button{
         width: 290px;
     }
 }
+
+@media only screen and (-webkit-min-device-pixel-ratio:3){
+    .login-box{
+        -webkit-backdrop-filter: blur(15px);
+    }
+}
