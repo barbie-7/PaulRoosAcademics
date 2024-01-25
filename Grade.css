@@ -487,5 +487,11 @@ body {
 
 
        }
+@media only screen and (-webkit-min-device-pixel-ratio:3){
+    .navbar{
+        -webkit-backdrop-filter: blur(50px);
+    }
+}
+    
 
  
