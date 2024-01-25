@@ -51,40 +51,20 @@
         </div>
         <div class="contact-form" >
             <h2>Contact Us</h2>
-            <form class="contact" method="post" action="" onsubmit="sendEmail(); reset(); return false;">
-            <input id="name" type="text" name="name" class="text-box" placeholder="Your Name" required>
-            <input id="email" type="email" name="email" class="text-box" placeholder="Your Email" required>
-            <textarea id="message" rows="5" name="message" placeholder="Your Message" required></textarea>
-            <input type="submit" name="submit" class="send-btn" value="Send">
-            </form>
+
+            <form action="https://formsubmit.co/barendxxx7@gmail.com" method="POST" onsubmit="sendEmail(); reset(); return false;"  >
+                <input id="name" type="text" name="name" class="text-box" placeholder="Your Name" required>
+                <input id="email" type="email" name="email" class="text-box" placeholder="Your Email" required>
+                <textarea id="message" rows="5" name="message" placeholder="Your Message" required></textarea>
+                <input type="submit" name="submit" class="send-btn" value="Send">
+           </form>
             
         </div>
        </div>
 </div></div>
      
       
-<script src="https://smtpjs.com/v3/smtp.js">
-</script>
-<script>
-    var btn = document.getElementById('btn');
-    btn.addEventListener('click', function(e){
-        e.preventDefault()
-        var name = document.getElementById('name').value;
-        var email = document.getElementById('name').value;
-        var message = document.getElementById('message').value;
-        var body = 'name: '+name + '<br/> email: ' +email + '<br/> message: '+ message;
-    })
 
-    Email.send({
-    SecureToken : "5da231d0-a812-4534-9d11-2df8b6e92a94",
-    To : 's20098@paulroos.co.za',
-    From : "barendxxx7@gmail.com",
-    Subject : "Contact Message",
-    Body : body
-    }).then(
-    message => alert(message)
-    );
-</script>
 
 <script src="main2.js"></script>
 </body>
